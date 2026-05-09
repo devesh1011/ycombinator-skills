@@ -3,7 +3,6 @@
 Agent skills for Y Combinator startup data. One command gives AI coding agents access to:
 
 - **5,886 YC startups** across 49 batches (2005–2026)
-- **All finalists + top companies** with details
 - **Rich filtering**: industry, region, batch, status, team size, hiring, and more
 
 ## Install
@@ -47,13 +46,3 @@ Data comes from the same Algolia index powering [ycombinator.com/launches](https
 - **No founder data**: The public API doesn't expose founder names. For founder details, visit the YC launches page for the company.
 - **Self-reported data**: Team size and hiring status are self-reported and may be outdated.
 - **Public companies only**: The `ycdc_public` tag filter excludes companies that haven't opted into public listing.
-
-## Structure
-
-```
-skills/
-  ycombinator-skills/
-    SKILL.md          # Full API spec (agents read this)
-    REFERENCE.md      # Canonical batch/industry/region lists
-    YC_FAQ.md         # YC program FAQ
-```
