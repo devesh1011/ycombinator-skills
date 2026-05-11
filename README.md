@@ -8,7 +8,7 @@ Agent skills for Y Combinator startup data. One command gives AI coding agents a
 ## Install
 
 ```bash
-npx skills add ycombinator-skills
+npx skills add devesh1011/ycombinator-skills
 ```
 
 Then tell your agent: `use ycombinator-skills`
